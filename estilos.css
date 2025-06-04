@@ -1,0 +1,79 @@
+/* Fondo general con imagen de nubes y color beige claro */
+body { 
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: url('ruta-a-tu-imagen-nubes.png') no-repeat center center fixed;
+  background-size: cover;
+  background-color: #f9f4ee; /* beige claro por si la imagen no carga */
+  color: #333;
+}
+
+/* Encabezado con tono beige cálido */
+header {
+  background-color: #f3e6d8; /* beige cálido */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Navegación */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #a67c52; /* marrón dorado */
+  font-weight: bold;
+}
+
+/* Títulos */
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: #a67c52; /* marrón dorado */
+}
+
+/* Secciones centrales */
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.85); /* fondo semitransparente blanco para resaltar el texto */
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Listas */
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f3e6d8;
+  color: #555;
+}
+
+/* Estilo para todos los enlaces */
+a {
+  color: #a67c52;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+/* Efecto hover en enlaces */
+a:hover {
+  color: #fff;
+  background-color: #a67c52;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
