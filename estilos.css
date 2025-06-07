@@ -1,14 +1,15 @@
-body {
+/* Fondo general con degradado pastel celeste */
+body { 
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background: url('https://wallpapers.com/images/featured/esteticaen-tono-celeste-claro-con-pequenas-flores-en-fotografia-ftg6cul98bsia1m8.jpg') no-repeat center center fixed;
+  background: linear-gradient(to bottom right, #d9f1ff, #b3e5fc); /* celeste pastel suave */
   background-size: cover;
   color: #333;
 }
 
-/* Encabezado translúcido */
+/* Encabezado en celeste más suave */
 header {
-  background: rgba(255, 255, 255, 0.5); /* translúcido sobre la imagen */
+  background-color: #e0f7fa; /* celeste muy claro */
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -27,29 +28,30 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #0077a6;
+  color: #0288d1; /* azul pastel */
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: #004d66;
+  color: #01579b; /* azul más intenso */
 }
 
 /* Títulos */
 h1, h2 {
   font-family: 'Playfair Display', serif;
-  color: #004d66; /* azul suave */
+  color: #0277bd; /* azul pastel medio */
 }
 
-/* Secciones con fondo blanco semitransparente */
+/* Secciones con fondo blanco suave */
 section {
   padding: 2rem;
   max-width: 800px;
   margin: 1.5rem auto;
-  background-color: rgba(255, 255, 255, 0.85); /* blanco translúcido */
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  color: #333;
 }
 
 /* Listas */
@@ -61,17 +63,17 @@ ul li {
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #e0f2f1; /* verde agua muy claro */
   color: #333;
 }
 
 /* Enlaces generales */
 a {
-  color: #0077a6;
+  color: #0288d1;
   text-decoration: none;
   font-weight: bold;
 }
 
 a:hover {
-  color: #004d66;
+  color: #01579b;
 }
