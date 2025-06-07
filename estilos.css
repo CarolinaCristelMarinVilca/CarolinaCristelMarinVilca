@@ -1,19 +1,19 @@
-body { 
+body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background: linear-gradient(to right, #1e3c72, #2a5298); /* azul profundo a azul claro */
+  background: url('https://wallpapers.com/images/featured/esteticaen-tono-celeste-claro-con-pequenas-flores-en-fotografia-ftg6cul98bsia1m8.jpg') no-repeat center center fixed;
   background-size: cover;
-  color: #ffffff;
+  color: #333;
 }
 
-/* Encabezado con fondo transparente para ver el degradado */
+/* Encabezado translúcido */
 header {
-  background: rgba(0, 0, 0, 0.3); /* semi-transparente oscuro */
+  background: rgba(255, 255, 255, 0.5); /* translúcido sobre la imagen */
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 /* Navegación */
@@ -27,31 +27,29 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #ffffff; /* blanco */
+  color: #0077a6;
   font-weight: bold;
-  transition: all 0.3s ease;
+  transition: color 0.3s ease;
 }
 
-/* Hover para enlaces del menú */
 nav a:hover {
-  color: #00cfff; /* celeste brillante */
+  color: #004d66;
 }
 
 /* Títulos */
 h1, h2 {
   font-family: 'Playfair Display', serif;
-  color: #ffffff; /* blanco */
+  color: #004d66; /* azul suave */
 }
 
-/* Secciones con fondo semitransparente para contraste */
+/* Secciones con fondo blanco semitransparente */
 section {
   padding: 2rem;
   max-width: 800px;
-  margin: auto;
-  background-color: rgba(255, 255, 255, 0.1); /* blanco semitransparente */
+  margin: 1.5rem auto;
+  background-color: rgba(255, 255, 255, 0.85); /* blanco translúcido */
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-  color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
 /* Listas */
@@ -63,20 +61,17 @@ ul li {
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: rgba(0, 0, 0, 0.2);
-  color: #ddd;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #333;
 }
 
-/* Estilo general para todos los enlaces */
+/* Enlaces generales */
 a {
-  color: #00cfff;
+  color: #0077a6;
   text-decoration: none;
   font-weight: bold;
-  transition: all 0.3s ease;
 }
 
-/* Efecto hover */
 a:hover {
-  color: #fff;
-  text-shadow: 0 0 5px #00cfff;
+  color: #004d66;
 }
