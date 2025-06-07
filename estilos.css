@@ -1,7 +1,7 @@
 body { 
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background: url('imagenes/fondoacuarela.png') no-repeat center center fixed;
+  background: url('imagenesfondoacuarela.png') no-repeat center center fixed;
   background-size: cover;
   color: #333;
 }
