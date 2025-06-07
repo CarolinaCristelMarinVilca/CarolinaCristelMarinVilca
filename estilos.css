@@ -1,8 +1,7 @@
-/* Fondo general con degradado pastel celeste */
 body { 
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background: linear-gradient(to bottom right, #d9f1ff, #b3e5fc); /* celeste pastel suave */
+  background: url('imagenes/fondo-acuarela.png') no-repeat center center fixed;
   background-size: cover;
   color: #333;
 }
