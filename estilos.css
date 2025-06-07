@@ -1,0 +1,79 @@
+/* Fondo general con imagen de nubes y color beige claro */
+body { 
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: url('imagenesfondoacuarela.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+/* Encabezado en celeste más suave */
+header {
+  background-color: #e0f7fa; /* celeste muy claro */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Navegación */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0288d1; /* azul pastel */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #01579b; /* azul más intenso */
+}
+
+/* Títulos */
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: #0277bd; /* azul pastel medio */
+}
+
+/* Secciones con fondo blanco suave */
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 1.5rem auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  color: #333;
+}
+
+/* Listas */
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #e0f2f1; /* verde agua muy claro */
+  color: #333;
+}
+
+/* Enlaces generales */
+a {
+  color: #0288d1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #01579b;
+}
